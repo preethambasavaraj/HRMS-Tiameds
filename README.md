@@ -64,7 +64,7 @@ npm install                           # install dependencies
 cp .env.example .env                  # create env file
 # configure DB, secret keys, ports
 npm start                             # run server
-
+```
 
 🌐 Frontend (UI)
 
@@ -77,7 +77,7 @@ UI for login, dashboard, employee lists
 API integration with backend
 
 To run frontend:
-
+```
 
 cd frontend
 npm install                           # install dependencies
@@ -86,7 +86,7 @@ npm start                             # run app in dev mode
 ```
 Configure your database connection in the backend .env file:
 
-
+```
 DB_HOST=localhost
 
 DB_USER=your_user
@@ -99,6 +99,6 @@ JWT_SECRET=your_jwt_secret
 
 PORT=5000
 
-
+```
 
 
