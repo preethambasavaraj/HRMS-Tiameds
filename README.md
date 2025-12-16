@@ -47,10 +47,14 @@ The backend folder contains all server-side code, including:
 ## 📁 Project Structure
 
 HRMS-Tiameds/
--├── backend/ # Server APIs and business logic
--├── frontend/ # Client React/NextJS application
--├── .gitignore # Ignored files
--├── README.md # Project documentation
+
+├── backend/ # Server APIs and business logic
+
+├── frontend/ # Client React/NextJS application
+
+├── .gitignore # Ignored files
+
+├── README.md # Project documentation
 
 To run backend:
 
@@ -84,10 +88,15 @@ Configure your database connection in the backend .env file:
 
 
 DB_HOST=localhost
+
 DB_USER=your_user
+
 DB_PASS=your_password
+
 DB_NAME=hrms
+
 JWT_SECRET=your_jwt_secret
+
 PORT=5000
 
 
