@@ -44,12 +44,13 @@ The backend folder contains all server-side code, including:
 - Authentication logic  
 - CRUD operations for employees, departments, and users  
 
+## 📁 Project Structure
 
 HRMS-Tiameds/
-├── backend/ # Server APIs and business logic
-├── frontend/ # Client React/NextJS application
-├── .gitignore # Ignored files
-├── README.md # Project documentation
+-├── backend/ # Server APIs and business logic
+-├── frontend/ # Client React/NextJS application
+-├── .gitignore # Ignored files
+-├── README.md # Project documentation
 
 To run backend:
 
@@ -78,7 +79,7 @@ cd frontend
 npm install                           # install dependencies
 npm start                             # run app in dev mode
 
-
+```
 Configure your database connection in the backend .env file:
 
 
@@ -90,5 +91,5 @@ JWT_SECRET=your_jwt_secret
 PORT=5000
 
 
-## 📁 Project Structure
+
 
